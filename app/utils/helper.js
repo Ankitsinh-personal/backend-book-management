@@ -1,5 +1,4 @@
 import bcrypt from 'bcrypt';
-
 const saltOrRounds = 10;
 
 export const createHash = async (password) => {
